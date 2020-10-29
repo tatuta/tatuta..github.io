@@ -1,11 +1,50 @@
+@media all and (min-width:0px){
+	body{
+		
+	}
+}
+@media all and (min-width:400px){
+	body{
+		
+	}
+}
+@media all and (min-width:800px){
+	body{
+		
+	}
+}
+body{
+	background-image: url("image/大理石.jpg");
+	background-position: center;
+	
+	background-size: 100vw;
+}
 h1{
-	font-size: 40px;
+	font-size: 100px;
 	color:#ffffff;
 	text-align: center;
 	background-image: url("image/eスポーツ.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100vw;
+}
+h2{
+	font-size: 70px;
+}
+h3{
+	font-size: 50px;
+}
+p{
+	font-size: 25px;
+	padding: 0 40px;
+}
+ul{
+	font-size: 40px;
+}
+table{
+	background: #ffffff;
+	font-size: 40px;
+	margin: 0 auto 50px auto;
 }
 .center ul{
 	list-style: disc;
@@ -43,19 +82,27 @@ h1{
 section{
 	text-align: center;
 }
-.imgsize1{
-
-}
-.imgsize2{
-	height: 328.5px;
-}
-.imgsize3{
-	padding-left: px;
-	height: px;
-}
-.imgsize4{
-	height: 320px;
-}
 table{
 	margin: 3px auto;
+}
+#fortnite{
+	margin: 10px auto 100px auto;
+}
+#sumabura{
+	margin: 10px auto 100px auto;
+}
+#rocket{
+	margin: 10px auto 100px auto;
+}
+#puyopuyo{
+	margin: 10px auto 100px auto;
+}
+.top{
+	position: fixed;
+	right: 0;
+	bottom: 70px;
+	height: 180px;
+}
+.margin{
+	margin-top: 50px;
 }
